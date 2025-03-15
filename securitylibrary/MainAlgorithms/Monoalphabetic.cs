@@ -10,10 +10,8 @@ namespace SecurityLibrary
         public string Encrypt(string plainText, string key)
         {
             String cipherText = String.Empty;
-
             for (int i = 0; i < plainText.Length; i++)
             {
-
                 if (char.IsLetter(plainText[i]))
                 {
                     int indexOfIt = plainText[i] - 'a';
